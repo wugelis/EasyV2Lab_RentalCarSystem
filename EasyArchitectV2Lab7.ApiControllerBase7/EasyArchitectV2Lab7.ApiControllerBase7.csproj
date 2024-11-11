@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>8.0.0</Version>
+    <Description>EasyArchitect V2 的 API Controller Base 底層服務 (套件專案)</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasyArchitectV2Lab7.AuthExtensions7\EasyArchitectV2Lab7.AuthExtensions7.csproj" />
+  </ItemGroup>
+
+</Project>

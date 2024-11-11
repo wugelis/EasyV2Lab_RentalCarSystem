@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>8.0.0</Version>
+    <Authors>Gelis</Authors>
+    <Description>AOP 橫切面設計（提供新增擴增功能）</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyArchitectCore.Core" Version="6.0.1.1" />
+    <PackageReference Include="NLog" Version="4.7.13" />
+    <PackageReference Include="NLog.Config" Version="4.7.13" />
+    <PackageReference Include="NLog.Schema" Version="4.7.13" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasyArchitectV2Lab7.AuthExtensions7\EasyArchitectV2Lab7.AuthExtensions7.csproj" />
+  </ItemGroup>
+</Project>
